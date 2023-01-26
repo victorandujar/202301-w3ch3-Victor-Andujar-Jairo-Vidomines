@@ -1,5 +1,7 @@
+import { CardComponent } from "./components/Components/CardComponent/CardComponent";
 import { HeaderComponent } from "./components/Components/HeaderComponent/HeaderComponent";
-
+import series from "./series";
+import { SeriesStructure } from "./types/types";
 import { MainComponent } from "./components/Components/MainComponent/MainComponent";
 
 const container = document.querySelector(".container")!;
@@ -8,3 +10,6 @@ header.render();
 
 const main = new MainComponent(container);
 main.render();
+
+const card = new CardComponent(container, series[0]);
+card.render();
