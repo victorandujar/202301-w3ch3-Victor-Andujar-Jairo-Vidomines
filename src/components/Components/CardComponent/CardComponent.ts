@@ -11,8 +11,7 @@ export class CardComponent extends Component implements ComponentStructure {
 
     super.render();
 
-    this.element.innerHTML = `<ul class="series">
-          <li class="serie">
+    this.element.innerHTML = `
             <img class="serie__poster"
               src="${this.serie.poster}"
               alt="${this.serie.name} poster" />
