@@ -10,6 +10,3 @@ header.render();
 
 const main = new MainComponent(container);
 main.render();
-
-const card = new CardComponent(container, series[0]);
-card.render();
