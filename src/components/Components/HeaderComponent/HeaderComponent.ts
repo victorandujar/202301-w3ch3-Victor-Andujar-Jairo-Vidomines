@@ -8,8 +8,8 @@ export class HeaderComponent extends Component {
   render() {
     super.render();
 
-    this.element.innerHTML = `
-      <h1 class="main-title">My Series</h1>
-`;
+    this.element.innerHTML = ` <h1 class="main-title">My Series</h1> `;
+
+    
   }
 }

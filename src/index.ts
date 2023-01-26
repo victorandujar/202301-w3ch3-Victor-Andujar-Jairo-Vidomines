@@ -1,4 +1,5 @@
 import { HeaderComponent } from "./components/Components/HeaderComponent/HeaderComponent";
+
 import { MainComponent } from "./components/Components/MainComponent/MainComponent";
 
 const container = document.querySelector(".container")!;
